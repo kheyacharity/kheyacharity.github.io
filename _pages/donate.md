@@ -11,7 +11,7 @@ nav_order: 3
 
 To join us as a PERMANENT MEMBER please fill the Registration Form in link below.
 
-[MEMBERSHIP REGISTRATION FORM](https://goo.gl/forms/eDeVcpyOXbugo4bt1)
+MEMBERSHIP REGISTRATION FORM
 
 PLEASE READ THESE CAREFULLY BEFORE BEING A PART OF OUR FAMILY
 
