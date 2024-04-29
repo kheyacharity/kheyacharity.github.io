@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /volunteer/
-title: Be a Volunteer
+title: Volunteer
 description: Introduce the volunteering opportunities at Kheya with an inviting and inspirational message.
 nav: true
 nav_order: 4

@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Our Impact
+title: Impact
 nav: true
-nav_order: 2
+nav_order: 5
 dropdown: true
 children:
   - title: Case Studies

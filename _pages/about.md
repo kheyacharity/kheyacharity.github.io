@@ -29,12 +29,18 @@ images:
 </swiper-container>
 
 
-<p>Minim voluptate sint commodo ut quis. Deserunt ut excepteur elit voluptate duis culpa cillum. Veniam qui eu incididunt id laboris fugiat irure voluptate. Nisi sit nostrud exercitation sit aliquip enim labore anim proident.</p>
+## খেয়া – উত্তরণের নিশ্চিত ঠিকানা
 
-<p>Dolor et eiusmod consectetur commodo. In eu ut velit Lorem exercitation pariatur culpa in reprehenderit. Et ea cupidatat duis qui exercitation qui irure. Esse reprehenderit proident exercitation magna.</p>
+একটি স্বেচ্ছাসেবী উদ্যোগ।।
 
-<p>Magna laborum ex incididunt sint laborum cillum eu. Dolore in occaecat labore est voluptate qui magna occaecat ea. Ad veniam ex amet tempor reprehenderit dolor voluptate dolor. Nisi ea id incididunt sit culpa sint aliquip aute nostrud. Aute cillum elit magna duis veniam.</p>
+রবিঠাকুর, বিবেকানন্দ, নজরুল, ক্ষুদিরাম, নেতাজী, সুকান্ত থেকে শক্তি-সুনীল আমরা সকলেই কমবেশি ভালোবাসি, পছন্দও করি। স্কুলে বিবেকানন্দ, টেরেজার ছবিও তো আমরা কম কিছু লাগাইনি দেওয়াল জুড়ে, কিন্তু তাতে দেওয়ালের রূপ হয়তো ফিরেছে, কিন্তু মানবজীবনের?? মানবজীবনের কোনো রূপ কি আদৌ ফিরেছে??
+হয়তো ফেরেনি, না সত্যিই ফেরেনি।। শুধু দেওয়ালে ছবি লাগালেই হয় না যে, ছবির ভিতরের মানুষের জীবনদর্শনটাকে নিজের মনের দেওয়ালেও যে লেপে নিতে হয়, তাই না??
+সেই মনের দেওয়ালেই দর্শন বোধকে বাঁচিয়ে রাখতে ক্ষয়িষ্ণু সমাজের বুকে স্রোতের বিপরীতে ভেসে যাওয়ার মানসিকতার একদল আত্মভোলা পাগলাঘোড়ার জীবনতরী হল আমাদের খেয়া – উত্তরণের নিশ্চিত ঠিকানা ।
 
-<p>Esse enim non ea elit quis dolor nisi proident nostrud. Quis esse exercitation eiusmod irure esse. Sunt ut non sit ea exercitation officia minim voluptate. Consequat enim non consectetur eiusmod pariatur culpa consequat ex. Adipisicing aliqua labore velit incididunt commodo magna.</p>
+আসুন, “সকলের তরে সকলে আমরা, প্রত্যেকে আমরা পরের তরে”র ভাবনায় একবার নিজেদের একবার মেপে দেখি।।
 
-<p>Enim elit minim consectetur aliqua laboris consectetur pariatur est. Veniam cupidatat incididunt in ullamco velit pariatur et dolor. Quis non ad ut veniam aliqua Lorem aute nulla. Anim veniam deserunt dolor anim commodo. Ex cupidatat voluptate amet est adipisicing fugiat non.</p>
+একবার ভেবে দেখি, পাশের বাড়ির অসুস্থ কাকুর ছেলেটার কথা, যখন কাকিমা কাকুর ওষুধের টাকা জোগাড় করতেই হিমসিক খাচ্ছে তখন রমেশের বই কেনার টাকা আসবে কোথা থেকে??
+
+একবার ভেবে দেখি, আমার বোনের জ্বর হলে মা যে মধু টা তুলসিপাতার সাথে মিশিয়ে খেতে দেয়, সুন্দরবনের গভীর জঙ্গলে চাক ভেঙে সেই মধু তুলে আনতে গিয়ে যে লোকটা বাঘের মুখে, কুমিরের মুখে পড়ে প্রাণ হারায় তার পরিবারের পুজোটা কিভাবে কাটে ? সেই লোকটার ও যে একটা ফুটফুটে বাচ্চা ছেলে ছিল, তার পুজোয় একটাও নতুন জামাকাপড় হোলো কি না??
+
+একবার ভেবে দেখি, বন্যায় যখন গ্রামের পর গ্রাম ভেসে গেলো, কাঁচা মাটির বাড়িগুলো যখন সব জলের তলায়, তখন অসহায় মানুষগুলো যখন টানা ১৩ দিন জলবন্দী অবস্থায় মানুষগুলো কি খেয়ে দিন কাটালো??

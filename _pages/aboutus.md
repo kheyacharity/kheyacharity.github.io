@@ -2,17 +2,35 @@
 layout: page
 permalink: /aboutus/
 title: About
-description: About Kheya Organization
+description: About Kheya Charity Organization
 nav: true
 nav_order: 1
 ---
 
-<p>Duis dolore reprehenderit duis exercitation ut labore tempor. Mollit deserunt non aliqua laboris mollit est. Adipisicing ea consectetur pariatur consequat tempor minim. Fugiat non nulla laboris ullamco aute incididunt occaecat veniam.</p>
+## Address
 
-<p>Voluptate commodo tempor consequat exercitation. Et esse tempor sit labore. Irure do anim aute duis nulla. Ullamco reprehenderit labore do dolor. Nisi qui occaecat proident ipsum mollit.</p>
+KHEYA - A Charitable Organization,
 
-<p>Ea ad elit fugiat irure proident occaecat dolore incididunt. Dolor do consectetur ut mollit anim cupidatat non. Commodo anim Lorem et anim. Minim ex labore veniam qui ullamco duis.</p>
+Basirhat, North 24 Parganas, Pin-743411,
 
-<p>Et nostrud non aute reprehenderit ea aliquip mollit dolor. Fugiat exercitation magna duis deserunt ut incididunt cupidatat ea. Culpa aliqua eu excepteur est adipisicing nisi deserunt in fugiat. Labore excepteur exercitation fugiat magna nulla reprehenderit fugiat ad. Laboris elit magna ad Lorem nostrud nulla.</p>
+West Bengal, India
 
-<p>Quis culpa irure quis ipsum ipsum nisi cillum est et. Reprehenderit sunt adipisicing adipisicing duis voluptate. Ullamco irure tempor cupidatat culpa magna elit cillum. Exercitation reprehenderit aute mollit deserunt.</p>
+Email: [kheyacharity@gmail.com](mailto:kheyacharity@gmail.com)
+
+## Governing Body
+
+President :  [Mr. Tapan Kumar Mandal](https://www.facebook.com/tapanmandal.amarpatraput)
+
+Vice President : [A K M KAMARUZZAMAN](https://www.facebook.com/akm.zzaman)
+
+Secretary : [Nirmendu Kundu](https://www.facebook.com/nirmendukundu.kheyacharity)
+
+Asst. Secretary : [Anirban Biswas](https://www.facebook.com/anirban.biswas.75685962)
+
+Cashier : [Shubham Mondal](mailto:rico9@rediffmail.com)
+
+## Kheya on Social Media
+
+[Join Kheya's Facebook Group](https://www.facebook.com/groups/kheyacharity/)
+
+[Follow Kheya's Facebook page](https://www.facebook.com/kheyacharity/)
