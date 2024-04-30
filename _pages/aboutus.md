@@ -5,6 +5,7 @@ title: About
 description: About Kheya Charity Organization
 nav: true
 nav_order: 1
+style="column-count: 2"
 ---
 
 ## Address
@@ -31,14 +32,38 @@ Cashier : [Shubham Mondal](mailto:rico9@rediffmail.com)
 
 
 
-## Kheya's Facebook Page
+## Kheya on Social Media
 
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?&style=for-the-badge&logo=Facebook&logoColor=white&labelColor=1877F2)](https://www.facebook.com/kheyacharity)
-
-## Kheya's Facebook Group
-
+[![Instagram](https://img.shields.io/badge/Instagram-%231877F2.svg?&style=for-the-badge&logo=Instagram&logoColor=white&labelColor=1877F2)](https://www.instagram.com/kheya_poribar/)
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?&style=for-the-badge&logo=Facebook&logoColor=white&labelColor=1877F2)](https://www.facebook.com/groups/kheyacharity/)
+
 
 
 ## Email
 [![Email](https://img.shields.io/badge/Email-%230077B5.svg?&style=for-the-badge&logo=Gmail&logoColor=white&labelColor=0077B5)](mailto:kheyacharity@gmail.com)
+
+<!-- <div class="grid">
+    <div class="col-1-2">
+       <div class="content">
+           <p>...insert content left side...</p>
+       </div>
+    </div>
+    <div class="col-1-2">
+       <div class="content">
+           <p>...insert content right side...</p>
+       </div>
+    </div>
+</div>
+<style>
+ .grid {
+  display: flex;
+ }
+.col-1-2 {
+  flex: 1;
+}
+.cole-1-2:last-child {
+  margin-left: 20px;
+}
+</style>
+ -->
