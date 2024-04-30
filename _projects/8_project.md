@@ -4,7 +4,7 @@ title: খেয়ার দুর্গাপুজো ২০১৯
 description: আমলামেথী ও সত্যনারায়ণপুরে খেয়ার দুর্গাপুজোর উপহার বিনিময় প্রকল্প ২০১৯
 img: assets/img/kheyapujo2019.jpg
 importance: 1
-category: Kheya's upcoming projects
+category: Kheya's past projects
 related_publications: false
 ---
 

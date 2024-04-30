@@ -29,8 +29,16 @@ Asst. Secretary : [Anirban Biswas](https://www.facebook.com/anirban.biswas.75685
 
 Cashier : [Shubham Mondal](mailto:rico9@rediffmail.com)
 
-## Kheya on Social Media
 
-[Join Kheya's Facebook Group](https://www.facebook.com/groups/kheyacharity/)
 
-[Follow Kheya's Facebook page](https://www.facebook.com/kheyacharity/)
+## Kheya's Facebook Page
+
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?&style=for-the-badge&logo=Facebook&logoColor=white&labelColor=1877F2)](https://www.facebook.com/kheyacharity)
+
+## Kheya's Facebook Group
+
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?&style=for-the-badge&logo=Facebook&logoColor=white&labelColor=1877F2)](https://www.facebook.com/groups/kheyacharity/)
+
+
+## Email
+[![Email](https://img.shields.io/badge/Email-%230077B5.svg?&style=for-the-badge&logo=Gmail&logoColor=white&labelColor=0077B5)](mailto:kheyacharity@gmail.com)

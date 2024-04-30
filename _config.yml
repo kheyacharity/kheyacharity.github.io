@@ -216,7 +216,7 @@ include:
   - _pages/blogging.md
   - _pages/supporter.md
   - _pages/404.md
-  - _pages/contact.md
+ 
 exclude:
   - bin/
   - CONTRIBUTING.md
