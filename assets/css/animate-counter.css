@@ -1,0 +1,22 @@
+
+
+/* Declare a custom property to hold the current number */
+:root {
+  --num: 0;
+}
+
+/* Apply the transition to the custom property */
+div {
+  transition: --num 1s;
+  counter-reset: num var(--num);
+}
+
+/* Update the custom property on hover (you can adjust the end value) */
+div:hover {
+  --num: 10000;
+}
+
+/* Display the counter value */
+div::after {
+  content: counter(num);
+}
