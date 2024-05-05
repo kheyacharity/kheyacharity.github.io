@@ -22,10 +22,10 @@ images:
 
 
 <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/kheya0.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/kheya1.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/kheya2.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/kheya3.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/kheya01.png" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/kheya00.png" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/kheya02.png" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/kheya03.png" class="img-fluid rounded z-depth-1" %}</swiper-slide>
 </swiper-container>
 
 
@@ -49,83 +49,94 @@ images:
 
 [//]: # (Animated counter)
 
-<div class="card-container">
-  <div class="card">
-    <div class="animate-counter">0</div>
+<div class="counter-container">
+  <div class="counter">
+    <div class="animate-counter" data-end-value="10000">0</div>
     <div class="text">Beneficiaries</div>
   </div>
-  <div class="card">
-    <div class="animate-counter">0</div>
+  <div class="counter">
+    <div class="animate-counter" data-end-value="10">0</div>
     <div class="text">Districts Covered</div>
   </div>
 </div>
 
 <style>
-  .card-container {
+  /* Style for counter container */
+  .counter-container {
     display: flex;
-    justify-content: space-between; /* Adjust as needed */
+    justify-content: center;
+    gap: 20px;
   }
 
-  .card {
-    flex: 1;
-    margin: 0 10px; /* Adjust margin between cards as needed */
+  /* Style for counter card */
+  .counter {
+    width: 475px;
     padding: 20px;
-    background-color: #809185;
-    border-radius: 50px; /* Adjust this value to control the roundness */
+    background-color: #f4f4f4;
+    border-radius: 10px;
     text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+    transition: transform 0.3s ease-in-out;
+  }
+
+  /* Hover effect for counter card */
+  .counter:hover {
+    transform: translateY(-5px);
+  }
+
+  /* Style for animated number */
+  .animate-counter {
+    font-size: 36px;
+    font-weight: bold;
+    color: #007bff; /* Adjust color as needed */
+  }
+
+  /* Style for counter text */
+  .text {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333; /* Adjust color as needed */
   }
 </style>
 
 <script>
   const targetElements = document.querySelectorAll('.animate-counter');
-  const startValues = [0, 0];
-  const endValues = [10000, 10] // Set your desired end values
-  const animationDuration = 3000; // Animation duration in milliseconds (adjust as needed)
-
-  const options = {
-    threshold: 0.5, // Trigger animation when 50% of the element is visible
-  };
 
   const animateCounters = (entries) => {
     entries.forEach((entry, index) => {
       if (entry.isIntersecting) {
-        let currentValue = startValues[index];
+        const endValue = parseInt(targetElements[index].getAttribute('data-end-value'));
+        let startValue = 0;
         const totalSteps = 100; // Total steps for the animation
-        const increment = Math.ceil((endValues[index] - currentValue) / totalSteps); // Adjust increment as needed
+        const increment = Math.ceil(endValue / totalSteps); // Calculate increment based on end value
 
         const updateCounter = () => {
-          if (currentValue <= endValues[index]) {
-            targetElements[index].textContent = currentValue;
-            currentValue += increment;
-            if (currentValue <= endValues[index]) {
+          if (startValue <= endValue) {
+            const displayedValue = startValue >= 1000 ? startValue.toLocaleString() : startValue;
+            targetElements[index].textContent = `${displayedValue}+`;
+            startValue += increment;
+            if (startValue <= endValue) {
               requestAnimationFrame(updateCounter);
             }
           }
         };
 
-        const startTime = performance.now(); // Get start time
-        const update = (currentTime) => {
-          const elapsedTime = currentTime - startTime;
-          const progress = Math.min(elapsedTime / animationDuration, 1); // Ensure progress doesn't exceed 1
-          currentValue = Math.floor(startValues[index] + progress * (endValues[index] - startValues[index]));
-          targetElements[index].textContent = currentValue;
-          if (progress < 1) {
-            requestAnimationFrame(update);
-          }
-        };
-
-        requestAnimationFrame(update); // Start animation
+        requestAnimationFrame(updateCounter); // Start animation
       }
     });
   };
 
-  const observer = new IntersectionObserver(animateCounters, options);
+  const observer = new IntersectionObserver(animateCounters, { threshold: 0.5 });
   targetElements.forEach((element) => {
     observer.observe(element);
   });
 </script>
 
+
+
 <br/><br/>
+
+
 
 [//]: # (Promo Video)
 
@@ -135,9 +146,7 @@ images:
     <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 10px;" src="https://www.youtube.com/embed/OmXC3aPr5yg?si=xc2KVgbMNv8UTcC9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-<div class="caption" style="border-radius: 10px; background-color: #809185; padding: 10px; margin-top: 10px;">
-    Kheya Charity Promo
-</div>
+<br/><br/>
 
 
 
@@ -149,20 +158,34 @@ images:
 
 [//]: # (Contact Form)
 
-<div id="formkeep-embed" data-formkeep-url="https://formkeep.com/p/cad66ed6943799217508285a3673695f?embedded=1"></div>
+<div class="form-container">
+  <div id="formkeep-embed" data-formkeep-url="https://formkeep.com/p/cad66ed6943799217508285a3673695f?embedded=1"></div>
 
-<script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
-<script type="text/javascript" src="https://formkeep-production-herokuapp-com.global.ssl.fastly.net/formkeep-embed.js"></script>
+  <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+  <script type="text/javascript" src="https://formkeep-production-herokuapp-com.global.ssl.fastly.net/formkeep-embed.js"></script>
 
-<!-- Get notified when the form is submitted, add your own code below: -->
-<script>
-const formkeepEmbed = document.querySelector('#formkeep-embed')
+  <!-- Get notified when the form is submitted, add your own code below: -->
+  <script>
+    const formkeepEmbed = document.querySelector('#formkeep-embed')
 
-formkeepEmbed.addEventListener('formkeep-embed:submitting', _event => {
-  console.log('Submitting form...')
-})
+    formkeepEmbed.addEventListener('formkeep-embed:submitting', _event => {
+      console.log('Submitting form...')
+    })
 
-formkeepEmbed.addEventListener('formkeep-embed:submitted', _event => {
-  console.log('Submitted form...')
-})
-</script>
+    formkeepEmbed.addEventListener('formkeep-embed:submitted', _event => {
+      console.log('Submitted form...')
+    })
+  </script>
+</div>
+
+<style>
+  /* Style for form container */
+  .form-container {
+    border: 2px solid #ddd; /* Border color */
+    border-radius: 10px; /* Border radius */
+    padding: 20px;
+    max-width: 500px; /* Adjust width as needed */
+    margin: 0 auto; /* Center the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+  }
+</style>
